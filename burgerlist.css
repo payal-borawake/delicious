@@ -1,0 +1,28 @@
+h1{
+	text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
+
+h3{
+	color: green;
+}
+
+#list1 {
+    font-size: large;
+    color: darkgreen;
+}
+
+.h3{
+	color: red;
+}
+
+ul{
+	color:red;
+}
+.sub{
+	background-color: orange;
+    height: 30px;
+    width: 100px;
+  }
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+      <title> I LOVE FOOD </title>
+      <link rel="shortcut icon" href="/home/payal/Desktop/html/favicon.ico" type="image/x-icon" />
+
+	  <link rel="stylesheet" type="text/css" href="burgerlist.css">
+
+
+<body>
+<div>
+<h1>BURGER'S MENU</h1>
+
+   <ul id ="list1" >
+		<h3>Veg Burgers</h3><br>
+  <li>A--------RS.100  <input type="checkbox"></li>
+  <li>b--------RS.100  <input type="checkbox"></li>
+  <li>c--------RS.100  <input type="checkbox"></li>
+</ul> 
+
+</div>
+
+<ul id ="list2">
+	<h3 class="h3">Non-veg Burgers</h3>
+  <li>a--------RS.100  <input type="checkbox"></li>
+  <li>b--------RS.100  <input type="checkbox"></li>
+  <li>c--------RS.100  <input type="checkbox"></li>
+	
+</ul>
+
+	<input type="button" onclick="calculateCost()" value="submit" class="sub">
+
+
+		<script type="text/javascript" src ="./calculateCost.js">
+				function calculateCost() 
+					{
+        			var selected = new Array()
+
+        			var list = document.getElementById("list1");
+
+            		var chks = list.getElementsByTagName("list");
+
+            for (var i = 0; i < chks.length; i++) {
+               if (chks[i].checked) {
+                selected.push(chks[i].value);
+           
+          
+            
+     }
+    };            
+
+
+</script>
+</body>
+</head>

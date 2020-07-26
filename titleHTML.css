@@ -1,0 +1,30 @@
+.Welcome{
+	
+ text-align: center;
+ font-size: 30px;
+ background-color: #FF8040;
+}
+
+body {
+    text-align: center;
+}
+
+body img {
+	width: 100px;	
+}
+
+body button {
+	display: inline-block;
+    width: 17%;
+    text-align: center;
+    background-color: #eae6e6;
+    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+	cursor: pointer;
+}
+
+body label {
+	display: block;
+	text-align: center;
+}

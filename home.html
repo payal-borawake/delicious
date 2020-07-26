@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+	<title> ILoveFood</title>
+	<link rel="shortcut icon" href="/home/payal/Desktop/html/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="titleHTML.css">
+	<script type="text/javascript" src="./calculateCost.js"></script>
+</head>
+<h4 class="Welcome">WELCOME TO I LOVE FOOD</h4>
+
+<body>
+	<button onclick="showList('burger')">
+			<img src="burger.png" />
+			<label>Burger</label>
+	</button>
+	<button onclick="showList('pizza')">
+			<img src="./pizza.png" />
+			<label>Pizza</label>
+		</button>
+	<button>
+			<img src="drink.png" />
+			<label>Drink</label>
+		</button>
+	<button>
+			<img src="churros.png" />
+			<label>Churros</label>
+		</button>
+	<button>
+			<img src="fried-chicken.png" />
+			<label>Fried Chicken</label>
+	</button>
+
+	<div id="burger" style="display:none;">
+		<div>
+			<h1>BURGER'S MENU</h1>
+
+			<ul id="list1">
+				<h3>Veg Burgers</h3>
+				<li>A--------RS.100 <input value="100" type="checkbox" ></li>
+				<li>b--------RS.200 <input value="200"  type="checkbox" ></li>
+				<li>c--------RS.300 <input value="300"  type="checkbox" ></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="pizza" style="display:none;">
+		<div>
+			<h1>Pizza MENU</h1>
+
+			<ul id="list1">
+				<h3>Veg Pizzas</h3>
+				<li>A--------RS.100 <input value="100" type="checkbox" ></li>
+				<li>b--------RS.200 <input value="200"  type="checkbox" ></li>
+				<li>c--------RS.300 <input value="300"  type="checkbox" ></li>
+			</ul>
+		</div>
+	</div>
+
+	<div>Total Cost:<input type="text" disabled id="totalCost" value="0"/></div>
+</body>
+
+</html>
