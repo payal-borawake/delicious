@@ -3,8 +3,8 @@
 <head>
 	<title> ILoveFood</title>
 	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" type="text/css" href="titleHTML.css">
-	<script type="text/javascript" src="./calculateCost.js"></script>
+	 <link rel="stylesheet" href="titleHTML.css">
+	<script type="text/javascript" src="calculateCost.js"></script>
 </head>
 <h4 class="Welcome">WELCOME TO I LOVE FOOD</h4>
 
@@ -13,23 +13,33 @@
 			<img src="burger.png" />
 			<label>Burger</label>
 	</button>
+	
+	
 	<button onclick="showList('pizza')">
 			<img src="./pizza.png" />
 			<label>Pizza</label>
 		</button>
-	<button>
+	
+	
+	<button onclick="showList('drink')">
 			<img src="drink.png" />
 			<label>Drink</label>
 		</button>
-	<button>
+	
+	
+	<button onclick="showList('churros')">
 			<img src="churros.png" />
 			<label>Churros</label>
 		</button>
-	<button>
+	
+	
+	<button onclick="showList('fried-chicken')">
 			<img src="fried-chicken.png" />
 			<label>Fried Chicken</label>
 	</button>
 
+	
+	
 	<div id="burger" style="display:none;">
 		<div>
 			<h1>BURGER'S MENU</h1>
@@ -49,6 +59,49 @@
 
 			<ul id="list1">
 				<h3>Veg Pizzas</h3>
+				<li>A--------RS.100 <input value="100" type="checkbox" ></li>
+				<li>b--------RS.200 <input value="200"  type="checkbox" ></li>
+				<li>c--------RS.300 <input value="300"  type="checkbox" ></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div id="drink" style="display:none;">
+		<div>
+			<h1>Drink Menu</h1>
+
+			<ul id="list1">
+				<h3>Drinks</h3>
+				<li>A--------RS.100 <input value="100" type="checkbox" ></li>
+				<li>b--------RS.200 <input value="200"  type="checkbox" ></li>
+				<li>c--------RS.300 <input value="300"  type="checkbox" ></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div id="churros" style="display:none;">
+		<div>
+			<h1>Churros Menu</h1>
+
+			<ul id="list1">
+				<h3>Churros</h3>
+				<li>A--------RS.100 <input value="100" type="checkbox" ></li>
+				<li>b--------RS.200 <input value="200"  type="checkbox" ></li>
+				<li>c--------RS.300 <input value="300"  type="checkbox" ></li>
+			</ul>
+		</div>
+	</div>
+	
+
+
+	<div id="friedchicken" style="display:none;">
+		<div>
+			<h1>Fried-chicken Menu</h1>
+
+			<ul id="list1">
+				<h3>Churros</h3>
 				<li>A--------RS.100 <input value="100" type="checkbox" ></li>
 				<li>b--------RS.200 <input value="200"  type="checkbox" ></li>
 				<li>c--------RS.300 <input value="300"  type="checkbox" ></li>
